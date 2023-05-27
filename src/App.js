@@ -2,6 +2,7 @@
 // import './App.css';
 
 import Navbar from "./Components/Navbar";
+import TextForm from "./Components/TextForm";
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Navbar />
 
       <div className="container">
+
+        <TextForm name="Enter Your Text Here"/>
       </div>
 
 
