@@ -18,9 +18,9 @@ const Navbar = () => {
                         </li>
                     </ul>
 
-                    <div class="form-check form-switch">
-                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
-                        <label class="form-check-label" for="flexSwitchCheckDefault">Mode</label>
+                    <div className="form-check form-switch">
+                        <input className="form-check-input" type="checkbox" role="switch" id="mode" />
+                        <label className="form-check-label" htmlFor="mode">Mode</label>
                     </div>
 
                     {/* <form className="d-flex" role="search">

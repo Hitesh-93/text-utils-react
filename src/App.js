@@ -1,17 +1,21 @@
 // import logo from './logo.svg';
 // import './App.css';
 
+// import { useState } from "react";
 import Navbar from "./Components/Navbar";
-import TextForm from "./Components/TextForm";
+import Textform from './Components/Textform';
 
 function App() {
+
+// const [mode, setMode] = useState('')
+
+
   return (
     <>
       <Navbar />
 
       <div className="container">
-
-        <TextForm name="Enter Your Text Here"/>
+        <Textform heading="Enter Your Text Here"/>
       </div>
 
 
